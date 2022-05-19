@@ -1,0 +1,22 @@
+.test-popup {
+    position: relative;
+    padding: 81px 0;
+    background-color: rgb(55, 185, 55);
+    margin: 0 auto;
+    img {
+        display: flex;
+        margin: 0 auto;
+        max-height: 550px;
+
+    }
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 40px;
+    width: auto;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
