@@ -1,11 +1,18 @@
 const gulp        = require('gulp');
 const browserSync = require('browser-sync');
-const sass        = require('gulp-sass');
+//const sass        = require('gulp-sass');
 //const sass        = require('sass');
+
+// Подключаем модули gulp-sass и gulp-less
+const sass = require('gulp-sass')(require('sass'));
+const less = require('gulp-less');
+
+
 const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
-//const imagemin = require('gulp-imagemin');
+
+const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
 
 
@@ -63,17 +70,17 @@ gulp.task('mailer', function() {
     .pipe (gulp.dest("dist/mailer"));
 });
 
-//gulp.task('images', function() {
-//    return gulp.src("src/img/**/*.*")
-//    .pipe(imagemin())       // сжимаем картинки
- //   .pipe (gulp.dest("dist/img"));
-//});
+gulp.task('images', function() {
+    return gulp.src("src/img/**/*.*")
+   .pipe(imagemin())       // сжимаем картинки
+    .pipe (gulp.dest("dist/img"));
+});
 
 
 
 //gulp.task('ones', gulp.parallel('styles'));
 
-gulp.task('default', gulp.parallel('watch', 'server', 'html', 'skripts', 'fonts', 'icons', 'mailer'));  
-//, 'styles'  , 'images'
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'skripts', 'fonts', 'images', 'icons', 'mailer'));  
+//  
 
 
