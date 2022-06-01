@@ -576,7 +576,7 @@ template {
 .promo {
   min-height: 650px;
   padding: 21px 0 93px 0;
-  background: url(../img/main2.jpg) center center/cover no-repeat;
+  background: url(../img/photo_1.jpeg) center center/cover no-repeat;
 }
 
 .promo__wrapper {
@@ -710,7 +710,7 @@ template {
   width: 150px;
   height: 30px;
   border-radius: 5px;
-  background-color: #c70101;
+  background-color: #6ec66c;
   border: none;
   color: #fff;
   font-size: 12px;
@@ -957,8 +957,8 @@ template {
 }
 
 .catalog__tab:hover {
-  -webkit-box-shadow: 3px 3px 20px #c70101;
-          box-shadow: 3px 3px 20px #c70101;
+  -webkit-box-shadow: 3px 3px 20px #6ec66c;
+          box-shadow: 3px 3px 20px #6ec66c;
   /* подсветка табов */
   border: none;
 }
@@ -971,7 +971,7 @@ template {
 
 .catalog__tab_active {
   color: #fff;
-  background-color: #c70101;
+  background-color: #6ec66c;
   border: none;
 }
 
@@ -1026,7 +1026,7 @@ template {
 .catalog-item__link {
   display: block;
   margin-top: 17px;
-  color: #c70101;
+  color: #6ec66c;
   font-size: 14px;
   font-weight: 500;
   text-decoration: underline;
@@ -1035,7 +1035,7 @@ template {
 }
 
 .catalog-item__link:hover {
-  color: #c70101;
+  color: #6ec66c;
 }
 
 .catalog-item__link hr {
@@ -1122,7 +1122,7 @@ template {
   position: absolute;
   width: 5px;
   height: 5px;
-  background-color: #c70101;
+  background-color: #6ec66c;
   left: -14px;
   top: 7px;
 }
@@ -1134,7 +1134,7 @@ template {
   -webkit-transform: translateX(calc(-50% - 19px));
           transform: translateX(calc(-50% - 19px));
   display: block;
-  color: #c70101;
+  color: #6ec66c;
   font-size: 14px;
   font-weight: 500;
   text-decoration: underline;
@@ -1142,7 +1142,7 @@ template {
 }
 
 .catalog-item__back:hover {
-  color: #c70101;
+  color: #6ec66c;
 }
 
 .footer {
@@ -1158,7 +1158,7 @@ template {
           transform: translateX(-50%);
   width: 450px;
   height: 270px;
-  background-color: #c70101;
+  background-color: #6ec66c;
   padding: 50px 68px 60px 68px;
 }
 
@@ -1308,7 +1308,7 @@ template {
   right: -0px;
   font-size: 51px;
   line-height: 21px;
-  color: #c70101;
+  color: #6ec66c;
   cursor: pointer;
 }
 
