@@ -610,6 +610,17 @@ template {
   text-transform: uppercase;
 }
 
+/* .promo__subheaders {
+  margin-top: 17px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+ */
+
+
 .promo__icons {
   margin-top: 65px;
   width: 425px;
@@ -820,7 +831,7 @@ template {
 .consultation {
   min-height: 680px;
   padding: 100px 0 92px 0;
-  background: url("../img/c880eb30.jpg") center center/cover no-repeat;
+  background: url("../img/potolok/c880eb30.jpg") center center/cover no-repeat;
   /* background: url('../img/consultation.jpg') center (center/cover) no-repeat; */
 }
 
